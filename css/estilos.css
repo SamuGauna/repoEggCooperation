@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-image: url("../img/dual_block_aula_latam.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background: rgba(255, 238, 0, 0.986);
+background: radial-gradient(circle, rgba(255, 238, 0, 0.911) 16%, rgba(255,255,255,1) 100%);
+
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+}
+.navbar {
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.logo{
+
+}
+.navUl{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    margin: 20px 15px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+}
+.encabezadoMainH2{
+    margin: 20px 0;
+}
+.encabezadoMain2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    margin: 20px 0;
+}
+footer{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.texto{
+    margin: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.formulario{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.servicesdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imgservices{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 20px;
+    background-color: white;
+}
+
+
